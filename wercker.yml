@@ -5,7 +5,7 @@ build:
     - script:
         name: Check for allowed files
         code: |
-          Rscript -e "source('hw4_whitelist.R')"
+          Rscript -e "source('https://raw.githubusercontent.com/Sta323-Sp19/hw4/master/hw4_whitelist.R')"
     - script:
         name: Render R markdown
         code: |

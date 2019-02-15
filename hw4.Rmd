@@ -1,15 +1,19 @@
-Homework 4 - [Your name here]
+Homework 4 - Tidy Tuesday & TV's Golden Age
 ========================================================
 
-### Task 1 - Objective
+```{r setup, message=FALSE}
+tv = readr::read_csv("data/IMDb_Economist_tv_ratings.csv")
+```
+
+### Task 1 - Goals
 
 
-### Task 2 - Visualization
+### Task 2 - Visuals
 
 ```{r}
 
 ```
 
 
-### Task 3 - Support
+### Task 3 - Designs
 
