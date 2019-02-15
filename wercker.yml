@@ -1,0 +1,12 @@
+box: rocker/verse
+
+build:
+  steps:
+    - script:
+        name: Check for allowed files
+        code: |
+          Rscript -e "source('hw4_whitelist.R')"
+    - script:
+        name: Render R markdown
+        code: |
+          Rscript -e "library(rmarkdown);render('hw4.Rmd')"
